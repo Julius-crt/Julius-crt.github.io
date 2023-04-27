@@ -41,10 +41,10 @@ const myImage = document.querySelector("img");
 myImage.onclick = () => {
     //speichert zuerst den src path 
     const mySrc = myImage.getAttribute("src");
-    if(mySrc === "ein-baum.png") {
-        myImage.setAttribute("src", "ein-baum.svg");
+    if(mySrc === "images/ein-baum.png") {
+        myImage.setAttribute("src", "images/ein-baum.svg");
     } else {
-        myImage.setAttribute("src", "ein-baum.png");
+        myImage.setAttribute("src", "images/ein-baum.png");
     }
 };
 
