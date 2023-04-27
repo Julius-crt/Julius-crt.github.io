@@ -1,0 +1,61 @@
+html {
+    background-color: rgb(190, 72, 72);
+}
+
+body {
+    width: 600px;
+    /* valuemeaning: top/bottom left/right */
+    margin: 30px auto;
+    /* valuemeaning: top right bottom left*/
+    padding: 0 20px 20px 20px;
+    border: 10px solid goldenrod;
+    background-color: rgb(111, 46, 76);
+
+    color: goldenrod;
+    font-size: 14 px;
+    text-align: center;
+     /*font-family:'Courier New', Courier, monospace;*/
+}
+
+button {
+    background-color: rgb(50, 21, 34);
+    border: 0;
+    color: goldenrod;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 60px;
+    /*applies shadow to text:  horizontal vertikal blur basecolor*/
+    text-shadow: 0px -7px 1px black;
+}
+
+img {
+    /*gibt dem img elemnt ein substanz, 
+    die von anderen elementen respektiert wird*/
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    background-color: brown;
+    /*line-height: 2;*/
+}
+
+ul {
+    text-align: center;
+}
+
+a{
+    font-size: 16px;
+    text-align: center;
+    /*line-height: 2;*/
+    letter-spacing: 1px;
+    color: black;
+}
+a:hover {
+    color: green;
+}
