@@ -52,14 +52,14 @@ let myButton = document.querySelector("button");
 let myHeading = document.querySelector("h3");
 
 function setUserName() {
-    const myName = prompt("Please enter your name.");
+    const myName = prompt("Wie heißt du?");
     //das ist eine api. es speichert ein datenitem und nennt es "name"
     if (myName === null) {
         setUserName();
     }
     else{
     localStorage.setItem("name", myName);
-    myHeading.textContent = `Hallo ${myName}, schön dass du dich für Bäume interessierst`;
+    myHeading.textContent = `Hallo ${myName}, schön dass du dich für Bäume interessierst!`;
     }
 }
 

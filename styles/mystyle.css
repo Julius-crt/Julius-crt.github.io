@@ -1,5 +1,5 @@
 html {
-    background-color: rgb(190, 72, 72);
+    background-color: rgb(30, 83, 24);
 }
 
 body {
@@ -9,7 +9,7 @@ body {
     /* valuemeaning: top right bottom left*/
     padding: 0 20px 20px 20px;
     border: 10px solid goldenrod;
-    background-color: rgb(111, 46, 76);
+    background-color: rgb(46, 111, 84);
 
     color: goldenrod;
     font-size: 14 px;
@@ -18,7 +18,7 @@ body {
 }
 
 button {
-    background-color: rgb(50, 21, 34);
+    background-color: rgb(84, 27, 53);
     border: 0;
     color: goldenrod;
 }
@@ -28,7 +28,11 @@ h1 {
     padding: 20px 0;
     font-size: 60px;
     /*applies shadow to text:  horizontal vertikal blur basecolor*/
-    text-shadow: 0px -7px 1px black;
+    text-shadow: 0px -5px 2px rgb(84, 27, 53);
+}
+
+h3 {
+    background-color: rgb(84, 27, 53);
 }
 
 img {
@@ -41,7 +45,7 @@ img {
 p {
     font-size: 16px;
     letter-spacing: 1px;
-    background-color: brown;
+    background-color: rgb(84, 27, 53);
     /*line-height: 2;*/
 }
 
@@ -57,5 +61,5 @@ a{
     color: black;
 }
 a:hover {
-    color: green;
+    color: goldenrod;
 }
