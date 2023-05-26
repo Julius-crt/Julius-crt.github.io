@@ -10,16 +10,38 @@
     <link rel="stylesheet" href="css/bootstrap.css"> -->
     <!-- man kann css in das html dokument einbauen, oder aber man importiert den
         style lieber aus einer extra css Datei (liegt auch im repo)-->
+    <style>
+      iframe { 
+        border: coral;
+        border-radius: 1cm;
+      }
+    </style>
 </head>
 <body>
-    <h1> Die Präsentation eines Baumes</h1>
+  <!-- you might want to configure csp directly to not get your page highjacked-->
+  <!-- A place to enjoy webdevelopment possibilities-->
+    <h1> Example-Page</h1>
     <h3></h3>
     <h2> Unerklärlich und umwerfend? Die Faszination Baum</h2>
     <button>Change User</button>
     <br> <br>
     <a href="https://www.youtube.com/watch?v=eR5q0jsQMYc">Hier gelangst du zu einem Baumvideo, viel Spaß</a>
     <br> <br>
-    <img src="images/ein-baum.svg" alt="Das Bild eines Baumes">
+    <!--/// iframes tag: möglichkeiten videos, map,advert ONLY EMBED WHEN NECESSARY-->
+    <!--<img src="images/ein-baum.svg" alt="Das Bild eines Baumes"> -->
+    <!-- iframes tags ermögliochen es videos einzubinden (embedding technique to embed entire web document)-->
+    <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/LXb3EKWsInQ" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen></iframe>-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d310844.0805017142!2d13.42473175!3d52.5068441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sde!2sde!4v1683549397617!5m2!1sde!2sde" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <p> ich hoffe das verletzt keine rechte</p>
     <p> Wie der Betrachter vielleicht vermutet, sehen wir hier ein Beispielbild. Dieses dient Einerseits dazu 
         dem Entwickler den Einstieg ins Webdevelopment zuerleichtern. Andererseits ist es ein erster Berührungspunkt mit unserer Natur.
     </p>
